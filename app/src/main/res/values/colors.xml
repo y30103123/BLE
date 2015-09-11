@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#00BCD4</color>
+    <color name="primaryColorDark">#00ACC1</color>
+    <color name="primaryButton">#ff55acee</color>
+    <color name="accentColor">#F44336</color>
+    <color name="custom_theme_darker">#ad843d</color>
+    <color name="custom_theme_dark">#d4a14a</color>
+    <color name="custom_theme_primary">#FFEB3B</color>
+    <color name="custom_theme_light">#fae8c8</color>
+    <color name="tabColorBlue">#00BCD4</color>
+    <color name="cardview">#ECEFF1</color>
+
+</resources>

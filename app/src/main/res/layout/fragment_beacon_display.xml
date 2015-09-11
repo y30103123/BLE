@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ly_relat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/vw_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/btn_start"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/setting">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_start"
+                style="@style/Widget.Start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="我已對準Beacon" />
+    </RelativeLayout>
+</RelativeLayout>

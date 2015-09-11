@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:colorPrimary">@color/primaryColor </item>
+        <item name="android:colorPrimaryDark">@color/primaryColorDark </item>
+        <item name="android:colorAccent">@color/accentColor </item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CardViewStyle" parent="CardView.Light">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Widget.Start" parent="@android:style/Widget.Material.Light.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:stateListAnimator">@layout/start_animator</item>
+    </style>
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#00004F</item>
+    </style>
+</resources>

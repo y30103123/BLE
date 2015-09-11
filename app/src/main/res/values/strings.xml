@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Beacon Finder</string>
+
+    <string name="beacon_name">BeacoNname</string>
+    <string name="action_clearDegree">clear</string>
+    <string name="title_activity_scanner_beacon">ScannerBeaconActivity</string>
+</resources>
